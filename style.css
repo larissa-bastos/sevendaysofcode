@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+:root {
+	--cordestaque: #8E2424;
+	--corsubt: #667085;
+	--cortit: #101828;
+	--corlogo: #3A404E;
+	--corborda: #EAECF0;
+	--corfundofooter: #F9FAFB;
+	--corbordaform: #D0D5DD;
+	--corfontefooter: #98A2B3;
+}
+
+body {
+	font-family: Inter, Arial, sans-serif;
+}
+
+nav {
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.logo {
+	color: var(--corlogo);
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.menu {
+	display: flex;
+	gap: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: var(--corsubt);
+}
+
+.login {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+button {
+	padding: 10px 15px 10px 15px;
+	background-color: var(--cordestaque);
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+#cabecalho {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+.tema {
+	color: var(--cordestaque);
+	font-size: 0.8em;
+	font-weight: 600;
+	padding-top: 90px;
+}
+
+#cabecalho h1 {
+	font-size: 2em;
+	padding-bottom: 10px;
+	color: var(--cortit);
+	text-align: center;
+}
+
+#cabecalho p {
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	color: var(--corsubt);
+}
+
+#metricas {
+	padding: 0px 30px 0px 30px;
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+}
+
+.metrica-titulo {
+	font-size: 3em;
+	color: var(--cordestaque);
+	padding-top: 100px;
+}
+
+.metrica-subtitulo {
+	font-size: 0.9em;
+	color: var(--cortit);
+}
+
+.metrica-texto {
+	font-size: 0.8em;
+	color: var(--corsubt);
+	line-height: 20px;
+}
+
+#vagas-abertas {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+#vagas-abertas .tema {
+	background-color: rgba(142, 36, 36, 0.05);	
+	padding: 5px 8px;
+	border-radius: 15px;
+	margin-top: 150px;
+}
+
+#vagas-abertas h2 {
+	color: var(--cortit);
+	font-size: 2em;
+}
+
+#vagas-abertas p {
+	color: var(--corsubt);
+}
+
+#vagas-abertas img {
+	margin-top: 60px;
+}
+
+#vagas {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.tipo-vaga {
+	color: var(--cortit);
+	font-size: 1em;
+}
+
+.vaga {
+	color: var(--cortit);
+	padding: 20px 300px 20px 20px;
+	margin: 20px;
+	border: 1px solid var(--corborda);
+	border-radius: 10px;
+}
+
+.vaga h3 { 
+	font-size: 0.9em;
+ }
+
+ .vaga span {
+ 	color: var(--corsubt);
+ 	font-size: 0.8em;
+ }
+
+ .info {
+ 	display: flex;
+ 	gap: 30px;
+ 	margin-top: 8px;
+ }
+
+#depoimentos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	background-color: #C3191908;
+	margin: 40px;
+	padding: 60px;
+}
+
+#depoimentos img {
+	max-width: 50px;
+	margin-top: 10px;
+}
+
+.tema-dep {
+	color: var(--cordestaque);
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+#depoimentos h2 {
+	color: var(--cortit);
+	text-align: center;
+	font-weight: 500;
+}
+
+.container-depo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2px;
+}
+
+.depoimento-nome {
+	font-size: 0.9em;
+	font-weight: 600;
+	color: var(--cortit);
+}
+
+.depoimento-cargo {
+	color: var(--corsubt);
+	font-size: 0.8em;
+}
+
+#oportunidades {
+	background-color: var(--corfundofooter);
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+
+#oportunidades h2 {
+	font-size: 2em;
+	color: var(--cortit);
+}
+
+#oportunidades p {
+	color: var(--corsubt);
+	font-size: 1em;
+}
+
+.form {
+	margin-top: 25px;
+	display: flex;
+	gap: 13px;
+}
+
+form input {
+	padding: 10px;
+	padding-right: 100px;
+	border: 1px solid var(--corbordaform);
+	border-radius: 5px;
+}
+
+footer {
+	color: var(--corfontefooter);
+	font-size: 0.8em;
+	margin-top: 25px;
+}
+
